@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Inconsolata:wght@200..900&display=swap');
+
+:root{
+    --fonte1: 'Inconsolata', monospace;
+    --cor1:#003980;
+    --cor2:#70A9F0;
+    --cor3:#B8D8FF;
+
+}
+
+*{
+    font-family: var(--fonte1);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #70A9F0;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width:100vw;
+    background-image: url(../imagens/fundo-site2.jpg);
+}
+section#login{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+}
+section#login>h1{
+    font-size: 22px;
+    font-weight: 320;
+    letter-spacing: 3.5px;
+    width: 100%;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.308);
+}
+div#icon>img{
+   width: 45px;
+}
+div#icon{
+    background-color: #003980;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto ;
+    padding: 10px;
+    width: 65px;
+    height: 65px;
+}
