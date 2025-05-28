@@ -21,26 +21,38 @@
 body,html{
     width: 100vw;
     height: 100vh;
-    background-color: #70A9F0;
+    background-image: linear-gradient(to top, var(--cor3), var(--cor2), var(--cor1));
+    overflow: hidden;
+    
 }
 main{
     position: relative;
     height: 100vh;
     width:100vw;
     background-image: url(../imagens/fundo-site2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 section#login{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 25%;
     left: 50%;
+    margin-top: 70px;
+    
 }
 section#login>h1{
-    font-size: 22px;
-    font-weight: 320;
+
+    font-size: 28px;
+    font-weight: 210;
     letter-spacing: 3.5px;
-    width: 100%;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.308);
+    width: 500px;
+    margin: auto;
+    margin-bottom: 22px;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.137);
 }
 div#icon>img{
    width: 45px;
@@ -53,4 +65,108 @@ div#icon{
     padding: 10px;
     width: 65px;
     height: 65px;
+    margin-bottom:4px ;
+}
+div#formulario input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.40px;
+    letter-spacing: 0.8px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    display: block;   
+    position: relative;
+    right: 14%;
+    opacity: 0.7;
+    
+}
+div#formulario{
+    margin-left: 35px;
+    width: 620px;
+}
+span.material-symbols-outlined {
+    font-size: 14px;
+    position: absolute;
+    left:28.30%;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+div.campo{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    margin-right: 38px;
+}
+div.campo label{
+    display: none;
+}
+div.campo input{
+    background: transparent;
+    border: none;
+    padding: 10px 10px 8px 32px;;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 250px   
+}
+div.campo input:focus{
+    outline: none;
+}
+div.campo input[type="email"]:-webkit-autofill {
+    border: none;
+    box-shadow: none;
+  -webkit-box-shadow: 0 0 0px 1000px #003980 inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+div#checkbox{
+    position: absolute;
+    left: 30.81%;
+    margin-top: 18px;
+
+}
+div#checkbox>input[type=checkbox]{
+    position: absolute;
+    top: 20%;
+    accent-color:var(--cor1);
+    cursor: pointer;
+}
+div#checkbox >label#write-check{
+    font-size: 11.45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 23px;
+    cursor: pointer;
+    
+}
+div#checkbox >a#write-link{
+    text-decoration: none;
+    font-size: 11.45px;
+    font-style: italic;
+    padding-left: 50px;
+}
+div#checkbox >a#write-link:hover{
+    text-decoration: underline;
+}
+div#login{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 118%;
+    left: 50%;
+    border: none;
+    background-color: transparent;
+    
+}
+div#login > input[type=submit]{
+    width: 250px;
+    height: 45px;
+    background-color:#003a80a2 ;
+    border: none;
+    font-family: var(--fonte1);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+div#login > input[type=submit]:hover{
+    background-image: radial-gradient(circle at top, var(--cor1), var(--cor2));
+    transition-duration: 0.3s;
+    transform: scale(1.08);
 }
