@@ -13,3 +13,13 @@
         height: 45px;
     }
 }
+@media screen and (orientation:portrait) and (max-width: 900px){
+    div#icon>img{
+        width: 31px;
+    }
+    div#icon{
+        padding:9px;
+        width: 50px;
+        height: 50px;
+    }
+}
