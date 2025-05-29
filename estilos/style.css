@@ -22,7 +22,7 @@ body,html{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top, var(--cor3), var(--cor2), var(--cor1));
-    overflow: hidden;
+    background-attachment: fixed;
     
 }
 main{
