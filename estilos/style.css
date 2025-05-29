@@ -86,7 +86,7 @@ div#formulario{
 span.material-symbols-outlined {
     font-size: 16px;
     position: absolute;
-    left:26.20%;
+    left:26.49%;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
@@ -122,7 +122,7 @@ div.campo input[type="email"]:-webkit-autofill {
 
 div#checkbox{
     position: absolute;
-    left: 29.20%;
+    left: 29.40%;
     margin-top: 18px;
 
 }
@@ -143,7 +143,7 @@ div#checkbox >a#write-link{
     text-decoration: none;
     font-size: 11.45px;
     font-style: italic;
-    padding-left: 75px;
+    padding-left: 72px;
 }
 div#checkbox >a#write-link:hover{
     text-decoration: underline;
