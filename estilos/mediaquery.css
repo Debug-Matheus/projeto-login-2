@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
-@media screen and (orientation:landscape){
+@media screen and (orientation:landscape) and (max-width: 768px){
     section#login{
-        margin-top: 55px;
+        margin-top: 60px;
+    }
+    div#icon>img{
+        width: 25px;
+    }
+    div#icon{
+        padding: 10px;
+        width: 45px;
+        height: 45px;
     }
 }
