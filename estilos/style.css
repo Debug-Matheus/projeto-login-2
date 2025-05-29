@@ -46,7 +46,7 @@ section#login{
 }
 section#login>h1{
 
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 210;
     letter-spacing: 3.5px;
     max-width: 90%;
@@ -77,19 +77,18 @@ div#formulario input::placeholder{
     padding: 30px;
     display: block;   
     position: relative;
-    right: 11%;
+    right: 13.20%;
     opacity: 0.7;
     
 }
 div#formulario{
-    margin-left: 35px;
-    
+    margin-left: 37px;
     width: 620px;
 }
 span.material-symbols-outlined {
     font-size: 16px;
     position: absolute;
-    left:24%;
+    left:26.20%;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
@@ -106,9 +105,9 @@ div.campo label{
 div.campo input{
     background: transparent;
     border: none;
-    padding: 10px 10px 8px 32px;;
+    padding: 10px 10px 8px 40px;;
     border-bottom: 1px solid rgb(255, 255, 255);
-    width: 300px  ; 
+    width: 273px  ; 
 }
 div.campo input:focus{
     outline: none;
@@ -123,7 +122,7 @@ div.campo input[type="email"]:-webkit-autofill {
 
 div#checkbox{
     position: absolute;
-    left: 26.90%;
+    left: 29.20%;
     margin-top: 18px;
 
 }
@@ -144,7 +143,7 @@ div#checkbox >a#write-link{
     text-decoration: none;
     font-size: 11.45px;
     font-style: italic;
-    padding-left: 102px;
+    padding-left: 75px;
 }
 div#checkbox >a#write-link:hover{
     text-decoration: underline;
@@ -159,7 +158,7 @@ div#login{
     
 }
 div#login > input[type=submit]{
-    width: 301px;
+    width: 274px;
     height: 45px;
     background-color:#003a80a2 ;
     border: none;
