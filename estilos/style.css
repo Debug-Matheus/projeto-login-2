@@ -22,7 +22,8 @@ body,html{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top, var(--cor3), var(--cor2), var(--cor1));
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;   
     
 }
 main{
@@ -48,6 +49,7 @@ section#login>h1{
     font-size: 36px;
     font-weight: 210;
     letter-spacing: 3.5px;
+    max-width: 90%;
     width: 500px;
     margin: auto;
     margin-bottom: 22px;
@@ -81,6 +83,7 @@ div#formulario input::placeholder{
 }
 div#formulario{
     margin-left: 35px;
+    
     width: 620px;
 }
 span.material-symbols-outlined {
@@ -105,7 +108,7 @@ div.campo input{
     border: none;
     padding: 10px 10px 8px 32px;;
     border-bottom: 1px solid rgb(255, 255, 255);
-    width: 300px   
+    width: 300px  ; 
 }
 div.campo input:focus{
     outline: none;
