@@ -2,7 +2,7 @@
 
 @media screen and (orientation:landscape) and (max-width: 900px){
     section#login{
-        margin-top: 130px;
+        margin-top: 120px;
     }
     div#icon>img{
         width: 25px;
@@ -11,5 +11,8 @@
         padding: 10px;
         width: 45px;
         height: 45px;
+    }
+    section#login>h1{
+        margin-bottom: 15px
     }
 }
