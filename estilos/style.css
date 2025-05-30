@@ -150,22 +150,21 @@ div#checkbox >a#write-link{
     text-decoration: none;
     font-size: 11.45px;
     font-style: italic;
-    padding-left: 72px;
+    padding-left: 71px;
 }
 div#checkbox >a#write-link:hover{
     text-decoration: underline;
 }
 div#login{
-    position: absolute;
-    transform: translate(-50%, 50%);
-    top: 118%;
-    left: 50%;
+    margin-top: 65px;
+    margin-right: 35px;
+    text-align: center;
     border: none;
     background-color: transparent;
     
 }
 div#login > input[type=submit]{
-    width: 274px;
+    width: 279px;
     height: 45px;
     background-color:#003a80a2 ;
     border: none;
