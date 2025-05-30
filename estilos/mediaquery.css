@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Media para dispotivos moveis em modo paisaigem */
 @media screen and (orientation:landscape) and (max-width: 900px){
     section#login{
         margin-top: 85px;
